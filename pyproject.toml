@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "requirements-txt"
+version = "0.1.0"
+description = ""
+authors = ["Bassam El Koussa <95539007+Bassamelkoussa@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "requirements"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dateutil = "2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
